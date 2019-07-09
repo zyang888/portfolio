@@ -102,13 +102,17 @@ li {
 }
 
 /* green */
-#a {
+.a {
 	color: #0f0;
 }
 
 /* blue */
-#c {
+.c {
 	color: #0bc;
+}
+
+.b {
+	color: #ff0096;
 }
 
 /* grey */
