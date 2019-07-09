@@ -1,0 +1,117 @@
+* {
+box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+	background-color: #000;
+  color: #fff;
+  width:750px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:14px;
+}
+
+img {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+nav a {
+  font-size: 2em;
+  padding: 6px 8px 6px 16px;
+}
+
+/* blue */
+a {
+	color: #0bc;
+	text-decoration: none;
+}
+
+h1 {
+  font-size: 2.44em;
+  margin: 0.67em 0;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.95em;
+  line-height: 1.4;
+  color: #ff0096;
+}
+
+h3 {
+  font-size: 1.56em;
+  line-height: 1.4;
+}
+
+/* The sidebar menu */
+aside {
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+aside a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+aside a:hover {
+  color: #f1f1f1;
+}
+
+aside h2 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ff0096;
+  display: block;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+li {
+  margin: 0 0 10px 0;
+  font-size: 25px;
+}
+
+/* green */
+#a {
+	color: #0f0;
+}
+
+/* blue */
+#c {
+	color: #0bc;
+}
+
+/* grey */
+#op{
+    	color: #888888
+}
